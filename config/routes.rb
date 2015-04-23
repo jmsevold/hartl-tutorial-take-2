@@ -4,10 +4,10 @@ Rails.application.routes.draw do
 
   get 'help' => 'static_pages#help'
 
-  get  'about' => 'static_pages#about'
+  get 'about' => 'static_pages#about'
 
   get 'contact' => 'static_pages#contact'
 
-  get 'sign_up' => 'users/new'
+  get 'sign_up' => 'users#new'
   
 end
